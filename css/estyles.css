@@ -155,7 +155,7 @@ header{
         padding: 10px 24px;
     }
     .bot:hover:after{
-        content:"Sportit";
+        content:"-Sportit";
        color: #eeff01;
     }
     .h3{
@@ -373,8 +373,9 @@ header{
             content: '\f0c9';
             font-family: "Font Awesome 5 Free";
             font-weight: 900;
-            font-size: 2rem;
+            font-size: 3rem;
         }
+        /*el que voy a entregar*/
         .boton1{
             display: none;
         }
@@ -384,10 +385,7 @@ header{
             flex-direction: column;
         }
         .press{
-            width: 100vw;
-            margin-left:5vw;
-            margin-right: 5vw;
-            padding-left: 5vw;
+            width: 100%
         }
         .press p{
             margin-left: 13vw;
@@ -395,7 +393,8 @@ header{
         }
         .morada {
             background-color: rgba(60, 221, 243, 1);
-            height:30vh;
+            height:auto;
+            width: 100%;
             align-content: center;    
             margin-bottom: 0vh;
         }
@@ -416,7 +415,7 @@ header{
             margin-top: 6vh;
         }
         .mosqueteros{
-            height: 65vh;
+            height: 100%;
             background-color:rgba(255, 255, 255, 1); 
         }
         .mosqueteros article{
@@ -428,6 +427,7 @@ header{
            border-radius: 15px;
            position:sticky;
            background-color:rgba(139, 72, 191, 0.3); 
+           
         }
         .mosqueteros article p{
             padding-right: 2em;
@@ -444,7 +444,7 @@ header{
         }
         .moradita2{
             background-color: rgba(60, 221, 243, 1);
-            height:34vh;
+            height:100%;
             flex-direction: column;
             align-items: center;
         }
@@ -472,8 +472,9 @@ header{
             background-color: rgba(30, 30, 38, 1);
        }
         .pie{
+            width: 100%;
             flex-direction: column;
-            height: auto;
+            height: 100%;
         }
         .form{order:1;}
         .listadoble{order:2;}
@@ -484,12 +485,9 @@ header{
         #email{
             width: 300px;
         }
-
          .form{
-        margin-left: 5em;
-      
+        width: 100%;
         position:sticky;
-       
         }
         .listadoble{
             justify-content: flex-start;
@@ -533,7 +531,7 @@ header{
        .permisos p{
         position: relative;
         bottom: 34vh;
-        left: 5vw;
+        left: 4vw;
        }
 
     }
